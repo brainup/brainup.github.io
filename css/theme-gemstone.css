@@ -479,7 +479,7 @@ nav li {
   float: left;
 }
 .nav-1 {
-  background: #333;
+  /*background: #333;*/
   background: rgba(255, 255, 255, 0.85);
   position: fixed;
   top: 0;
@@ -802,7 +802,7 @@ nav li {
   .nav-1 {
     max-height: 60px;
     overflow: hidden;
-    background: rgba(30, 30, 30, 0.9);
+    background: rgba(255, 255, 255, 0.85);
   }
   .nav-1 .social-links {
     display: none;
