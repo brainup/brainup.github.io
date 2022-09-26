@@ -1,385 +1,705 @@
+<!DOCTYPE html>
+<html lang="pt">
 
-<!doctype html>
-<html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <title>Brain Up - Consultoria, Desenvolvimento e Inovação de TI</title>
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-		<meta name="theme-color" content="#ffffff">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/theme-gemstone.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="http://fonts.googleapis.com/css?family=Roboto:100,400,300,700,400italic,500%7CMontserrat:400,700" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic" rel="stylesheet" type="text/css">
-        <link href="css/font-lato.css" rel="stylesheet" type="text/css">
-    </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
+  <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
+  <meta name="author" content="elemis">
+  <title>Brainup - Consultoria, Desenvolvimento e Inovação de TI</title>
+  <link rel="shortcut icon" href="./assets/img/favicon.png">
+  <link rel="stylesheet" href="./assets/css/plugins.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
 
-    <body>
+<body class="onepage" data-bs-spy="scroll" data-bs-target=".navbar">
+  <div class="content-wrapper">
+    <header class="wrapper bg-gray">
+      <nav class="navbar navbar-expand-lg center-logo transparent navbar-light">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <a href="./index.html">
+              <img src="./assets/img/logo.png" srcset="./assets/img/logo@2x.png 2x" alt="" />
+            </a>
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none d-xl-none">
+              <a href="./index.html"><img src="./assets/img/logo.png" srcset="./assets/img/logo.png 2x" alt="" /></a>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link scroll active" href="#home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link scroll" href="#services">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link scroll" href="#team">Equipe</a></li>
+                <li class="nav-item"><a class="nav-link scroll" href="#contact">Contato</a></li>
+              </ul>
+              <!-- /.navbar-nav -->
+              <div class="d-lg-none mt-auto pt-6 pb-6 order-4">
+                <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
+                <br /> 00 (123) 456 78 90 <br />
+                <nav class="nav social social-white mt-4">
+                  <a href="#"><i class="uil uil-twitter"></i></a>
+                  <a href="#"><i class="uil uil-facebook-f"></i></a>
+                  <a href="#"><i class="uil uil-dribbble"></i></a>
+                  <a href="#"><i class="uil uil-instagram"></i></a>
+                  <a href="#"><i class="uil uil-youtube"></i></a>
+                </nav>
+                <!-- /.social -->
+              </div>
+              <!-- /offcanvas-nav-other -->
+            </div>
+            <!-- /.offcanvas-body -->
+          </div>
+          <!-- /.navbar-collapse -->
+          <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item dropdown language-select text-uppercase">
+                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pt</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="dropdown-item" href="#">Pt</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">En</a></li>
+                </ul>
+              </li>
+              <li class="nav-item d-lg-none">
+                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-other -->
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+    </header>
+    <!-- /header -->
+    <section id="home">
+      <div class="container pt-10 pt-md-14 pb-8 text-center">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+          <div class="col-lg-7">
+            <figure><img class="w-auto" src="./assets/img/illustrations/i2.png" srcset="./assets/img/illustrations/i2@2x.png 2x" alt="" /></figure>
+          </div>
+          <!-- /column -->
+          <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start">
+            <h1 class="display-1 mb-5 mx-md-n5 mx-lg-0">Grow Your Business with Our Solutions.</h1>
+            <p class="lead fs-lg mb-7">We help our clients to increase their website traffic, rankings and visibility in search results.</p>
+            <span><a class="btn btn-primary rounded-pill me-2">Try It For Free</a></span>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="services">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+            <h2 class="fs-16 text-uppercase text-muted mb-3">What We Do?</h2>
+            <h3 class="display-4 mb-10 px-xl-10">The service we offer is specifically designed to meet your needs.</h3>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="position-relative">
+          <div class="shape rounded-circle bg-soft-blue rellax w-16 h-16" data-rellax-speed="1" style="bottom: -0.5rem; right: -2.2rem; z-index: 0;"></div>
+          <div class="shape bg-dot primary rellax w-16 h-17" data-rellax-speed="1" style="top: -0.5rem; left: -2.5rem; z-index: 0;"></div>
+          <div class="row gx-md-5 gy-5 text-center">
+            <div class="col-md-6 col-xl-3">
+              <div class="card shadow-lg">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 511.9" data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/lineal/search-2.svg" class="svg-inject icon-svg icon-svg-md text-yellow mb-3"><path class="lineal-stroke" d="M297.3 429.9c-118.7 0-215-96.2-215-215 0-80.1 44.5-153.5 115.5-190.6 105.1-54.7 235.1-13.8 289.9 91.3 4 8 .8 17.7-7.1 21.7-7.8 3.9-17.3.9-21.5-6.8C412.5 41.2 302 6.4 212.7 52.9c-89.4 46.7-124 156.9-77.4 246.3s156.9 124 246.3 77.4c61.7-32.2 99.8-96.8 98-166.4-.2-8.9 6.9-16.3 15.8-16.4 8.9-.2 16.2 6.8 16.4 15.7 2.9 118.8-91.1 217.5-209.9 220.4-1.4-.1-3 0-4.6 0z"></path><circle class="lineal-fill" cx="297.1" cy="214.9" r="111.1"></circle><path class="lineal-stroke" d="M297.1 342.1c-70.3 0-127.2-57-127.2-127.2s57-127.2 127.2-127.2 127.2 57 127.2 127.2c-.1 70.2-57 127.1-127.2 127.2zm0-222.2c-52.5 0-95 42.5-95 95s42.5 95 95 95 95-42.5 95-95c-.1-52.5-42.6-95-95-95zm-240.6 392C25.3 511.9 0 486.6 0 455.4c0-17.6 8.2-34.2 22.2-44.9L88.3 360c6.4-4.9 15.5-4.3 21.2 1.4l41.1 41.1c5.7 5.7 6.3 14.8 1.4 21.2l-50.5 66.1c-9.9 12.9-24.9 21-41.2 22.1h-3.8zm40.1-117.7l-54.9 41.9c-10.7 8.1-12.9 23.3-4.8 34s23.3 12.9 34 4.8c1.8-1.4 3.4-3 4.8-4.8l42-54.9-21.1-21z"></path></svg>
+                  <h4>SEO Services</h4>
+                  <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
+                  <a href="#" class="more hover link-yellow">Learn More</a>
+                </div>
+                <!--/.card-body -->
+              </div>
+              <!--/.card -->
+            </div>
+            <!--/column -->
+            <div class="col-md-6 col-xl-3">
+              <div class="card shadow-lg">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 442.8" data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/lineal/browser.svg" class="svg-inject icon-svg icon-svg-md text-red mb-3"><path class="lineal-stroke" d="M464.2 442.8H47.7C21.4 442.8 0 421.4 0 395.1V47.7C0 21.4 21.4 0 47.7 0h416.5C490.6 0 512 21.4 512 47.7c0 7.6-6.2 13.8-13.8 13.9-7.6 0-13.8-6.2-13.9-13.8 0-11.1-9-20-20.1-20.1H47.7c-11.1 0-20 9-20.1 20.1v347.3c0 11.1 9 20.1 20.1 20.1h416.5c11.1 0 20.1-9 20.1-20.1V209.4c0-7.6 6.2-13.8 13.8-13.9 7.6 0 13.8 6.2 13.9 13.8V395c0 26.4-21.4 47.8-47.8 47.8z"></path><path class="lineal-fill" d="M13.8 47.7v69.9h484.3V47.7c0-18.7-15.2-33.9-33.9-33.9H47.7C29 13.8 13.8 29 13.8 47.7z"></path><path class="lineal-stroke" d="M498.2 131.5H13.8c-7.6 0-13.8-6.2-13.8-13.8v-70C0 21.4 21.4 0 47.7 0h416.5C490.6 0 512 21.4 512 47.7v69.9c0 7.7-6.2 13.9-13.8 13.9zM27.7 103.8h456.6v-56c0-11.1-9-20.1-20.1-20.1H47.8c-11.1 0-20 9-20.1 20v56.1z"></path><path class="lineal-stroke" d="M294.7 79.6h-26.3c-7.6 0-13.8-6.2-13.8-13.8S260.8 52 268.4 52h26.3c7.6 0 13.8 6.2 13.8 13.8.1 7.6-6.1 13.8-13.8 13.8zm73.4 0h-26.3c-7.6 0-13.8-6.2-13.8-13.8 0-7.6 6.2-13.8 13.8-13.8h26.3c7.6 0 13.8 6.2 13.8 13.8 0 7.6-6.2 13.8-13.8 13.8zm73.3 0h-26.3c-7.6 0-13.8-6.2-13.8-13.8 0-7.6 6.2-13.8 13.8-13.8h26.3c7.6 0 13.8 6.2 13.8 13.8.1 7.6-6.1 13.8-13.8 13.8z"></path><path class="lineal-fill" d="M112.8 268.5h286.4v63.6H112.8z"></path><path class="lineal-stroke" d="M399.2 345.9H112.8c-7.6 0-13.8-6.2-13.8-13.8v-63.7c0-7.6 6.2-13.8 13.8-13.8h286.4c7.6 0 13.8 6.2 13.8 13.8v63.7c.1 7.6-6.1 13.8-13.8 13.8zm-272.6-27.6h258.8v-36H126.6v36zm230.9-95.5h-203c-7.6.2-14-5.8-14.2-13.5s5.8-14 13.5-14.2h203.8c7.6-.2 14 5.8 14.2 13.5s-5.8 14-13.5 14.2h-.8z"></path></svg>
+                  <h4>Web Design</h4>
+                  <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
+                  <a href="#" class="more hover link-red">Learn More</a>
+                </div>
+                <!--/.card-body -->
+              </div>
+              <!--/.card -->
+            </div>
+            <!--/column -->
+            <div class="col-md-6 col-xl-3">
+              <div class="card shadow-lg">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 454.6" data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/lineal/chat-2.svg" class="svg-inject icon-svg icon-svg-md text-green mb-3"><path class="lineal-fill" d="M131.5 126.8h249V15.2H15.2v256.3h116.3z"></path><path class="lineal-stroke" d="M496.8 194.4c-8.4 0-15.2 6.8-15.2 15.2v158.3h-29.7c-8.4 0-15.2 6.8-15.2 15.2 0 .5 0 1.1.1 1.6l2.8 27.2-75.7-42.1c-2.3-1.3-4.8-1.9-7.4-1.9H146.7V142h233.8c8.4 0 15.2-6.8 15.2-15.2V15.2c0-8.4-6.8-15.2-15.2-15.2H15.2C6.8 0 0 6.8 0 15.2v256.3c0 8.4 6.8 15.2 15.2 15.2h101v96.4c0 8.4 6.8 15.2 15.2 15.2h221l97.8 54.3c7.3 4.1 16.6 1.4 20.7-5.9 1.5-2.7 2.2-5.9 1.8-9l-4.1-39.5h28.1c8.4 0 15.2-6.8 15.2-15.2V209.6c.1-8.4-6.7-15.2-15.1-15.2zM30.4 256.3V30.4h334.8v81.2H131.5c-8.4 0-15.2 6.8-15.2 15.2v129.5H30.4z"></path><path class="lineal-stroke" d="M413.8 223.6H214.4c-8.4 0-15.2-6.8-15.2-15.2s6.8-15.2 15.2-15.2h199.4c8.4 0 15.2 6.8 15.2 15.2s-6.8 15.2-15.2 15.2zm0 85.9H214.4c-8.4 0-15.2-6.8-15.2-15.2S206 279 214.4 279h199.4c8.4 0 15.2 6.8 15.2 15.2s-6.8 15.3-15.2 15.3z"></path></svg>
+                  <h4>Social Engagement</h4>
+                  <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
+                  <a href="#" class="more hover link-green">Learn More</a>
+                </div>
+                <!--/.card-body -->
+              </div>
+              <!--/.card -->
+            </div>
+            <!--/column -->
+            <div class="col-md-6 col-xl-3">
+              <div class="card shadow-lg">
+                <div class="card-body">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 409.6 362.5" data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/lineal/megaphone.svg" class="svg-inject icon-svg icon-svg-md text-blue mb-3"><path class="lineal-stroke" d="M343.4 302.9L61 302.5c-25.3-.2-47.5-16.8-54.8-40.9l-3.9-12.9c-7.1-24.2 2.5-50.3 23.5-64.2L262.1 29.8c5.7-3.7 13.3-2.1 17 3.6.7 1 1.2 2.1 1.5 3.2l74.3 249.8c2.4 6.4-.9 13.5-7.3 15.8-1.3.5-2.8.7-4.2.7zM261.8 59.4L39.3 205c-12 7.9-17.4 22.8-13.4 36.6l3.8 12.9c4.2 13.8 16.8 23.3 31.2 23.4l265.8.4-64.9-218.9z"></path><path class="lineal-stroke" d="M138 362.5c-40.4 0-72.8-31.1-73.6-70.8 0-6.8 5.5-12.3 12.3-12.3 6.6 0 12.1 5.2 12.3 11.8.6 26.2 22.1 46.7 49 46.7 14.2 0 27.7-6.2 37-16.9 4.5-5.1 12.2-5.7 17.4-1.2 5.1 4.5 5.7 12.2 1.2 17.4-14 16.1-34.3 25.3-55.6 25.3z"></path><path class="lineal-fill" d="M183.4 96l57.8 194.5 102.1.1-74.5-250.5L183.4 96z"></path><path class="lineal-stroke" d="M343.4 302.9l-102.1-.1c-5.4 0-10.2-3.6-11.8-8.8L171.6 99.5c-1.6-5.2.5-10.8 5.1-13.8l85.4-55.9c5.7-3.7 13.3-2.1 17 3.6.7 1 1.2 2.1 1.5 3.2l74.5 250.6c1.9 6.5-1.8 13.4-8.3 15.3-1.1.2-2.3.4-3.4.4zm-92.9-24.7l76.4.1-65.1-218.9-63.9 41.8 52.6 177z"></path><path class="lineal-stroke" d="M351.8 330.6c-5.4 0-10.2-3.6-11.8-8.8l-91-306c-2.1-6.5 1.3-13.4 7.8-15.6 6.5-2.1 13.4 1.3 15.6 7.8.1.3.2.5.2.8l91 305.9c1.9 6.5-1.8 13.4-8.3 15.3-1.1.4-2.3.6-3.5.6zM338 91.7c-6.8 0-12.3-5.5-12.3-12.3 0-1.8.4-3.6 1.2-5.3l13.4-28.5c2.9-6.2 10.2-8.8 16.4-5.9 6.2 2.9 8.8 10.2 5.9 16.4l-13.4 28.5c-2.1 4.3-6.4 7.1-11.2 7.1zm28.2 64.9c-6.8 0-12.3-5.5-12.3-12.3 0-5.7 3.9-10.6 9.4-12l31.1-7.5c6.6-1.5 13.2 2.6 14.7 9.3 1.5 6.5-2.5 13-9 14.7l-31.2 7.4c-.8.3-1.8.4-2.7.4zm29.1 90c-2.7 0-5.4-.9-7.5-2.6l-24.9-19.4c-5.4-4.2-6.3-11.9-2.2-17.3s11.9-6.3 17.3-2.2l24.9 19.4c5.4 4.2 6.3 11.9 2.1 17.3-2.3 3-5.9 4.7-9.7 4.8z"></path></svg>
+                  <h4>Content Marketing</h4>
+                  <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
+                  <a href="#" class="more hover link-blue">Learn More</a>
+                </div>
+                <!--/.card-body -->
+              </div>
+              <!--/.card -->
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+        </div>
+        <!-- /.position-relative -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="development">
+      <div class="container py-6 py-md-8">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 mb-8 align-items-center">
+          <div class="col-lg-7 order-lg-2">
+            <figure><img class="w-auto" src="./assets/img/illustrations/i3.png" srcset="./assets/img/illustrations/i3@2x.png 2x" alt="" /></figure>
+          </div>
+          <!--/column -->
+          <div class="col-lg-5">
+            <h2 class="fs-16 text-uppercase text-muted mb-3">Analyze Now</h2>
+            <h3 class="display-4 mb-5">Wonder how much faster your website can go? Easily check your SEO Score now.</h3>
+            <p class="mb-7">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            <div class="row">
+              <div class="col-lg-9">
+                <form action="#">
+                  <div class="form-floating input-group">
+                    <input type="url" class="form-control" placeholder="Enter Website URL" id="seo-check">
+                    <label for="seo-check">Enter Website URL</label>
+                    <button class="btn btn-primary" type="button">Check</button>
+                  </div>
+                </form>
+              </div>
+              <!-- /column -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="consultancy">
+      <div class="container">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+          <div class="col-lg-7 order-lg-2">
+            <figure><img class="w-auto" src="./assets/img/illustrations/i8.png" srcset="./assets/img/illustrations/i8@2x.png 2x" alt="" /></figure>
+          </div>
+          <!--/column -->
+          <div class="col-lg-5">
+            <h2 class="fs-16 text-uppercase text-muted mb-3">Our Solutions</h2>
+            <h3 class="display-4 mb-5">We make your spending stress-free for you to have the perfect control.</h3>
+            <p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus.</p>
+            <div class="row gy-3">
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                  <li><span><i class="uil uil-check"></i></span><span>Aenean quam ornare. Curabitur blandit.</span></li>
+                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Nullam quis risus eget urna mollis ornare.</span></li>
+                </ul>
+              </div>
+              <!--/column -->
+              <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                  <li><span><i class="uil uil-check"></i></span><span>Etiam porta euismod malesuada mollis.</span></li>
+                  <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Vivamus sagittis lacus vel augue rutrum.</span></li>
+                </ul>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="lgpd">
+      <div class="container py-6 py-md-8">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 mb-10 mb-md-14 align-items-center">
+          <div class="col-lg-7">
+            <figure><img class="w-auto" src="./assets/img/illustrations/i5.png" srcset="./assets/img/illustrations/i5@2x.png 2x" alt="" /></figure>
+          </div>
+          <!--/column -->
+          <div class="col-lg-5">
+            <h2 class="fs-16 text-uppercase text-muted mb-3">Let’s Talk</h2>
+            <h3 class="display-4 mb-3">Let's make something great together. We are trusted by over 5000+ clients.</h3>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <a href="#" class="btn btn-primary rounded-pill mt-2">Join Us</a>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="course">
+      <div class="container py-6 py-md-8">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+          <div class="col-lg-7">
+            <figure><img class="w-auto" src="./assets/img/illustrations/i6.png" srcset="./assets/img/illustrations/i6@2x.png 2x" alt="" /></figure>
+          </div>
+          <!--/column -->
+          <div class="col-lg-5">
+            <h2 class="fs-16 text-uppercase text-muted mb-3">Why Choose Us?</h2>
+            <h3 class="display-4 mb-7">We bring solutions to make life easier for our clients.</h3>
+            <div class="accordion accordion-wrapper" id="accordionExample">
+              <div class="card plain accordion-item">
+                <div class="card-header" id="headingOne">
+                  <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Professional Design </button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
+              <!--/.accordion-item -->
+              <div class="card plain accordion-item">
+                <div class="card-header" id="headingTwo">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Top-Notch Support </button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
+              <!--/.accordion-item -->
+              <div class="card plain accordion-item">
+                <div class="card-header" id="headingThree">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Header and Slider Options </button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
+              <!--/.accordion-item -->
+            </div>
+            <!--/.accordion -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="course-2">
+      <div class="container">
+        <div class="row gy-6 mb-6 mb-md-12">
+          <div class="col-lg-4">
+            <h2 class="fs-16 text-uppercase text-muted mt-lg-18 mb-3">Our Pricing</h2>
+            <h3 class="display-4 mb-3">We offer great and premium prices.</h3>
+            <p>Enjoy a <a href="#" class="hover">free 30-day trial</a> and experience the full service. No credit card required!</p>
+            <a href="#" class="btn btn-primary rounded-pill mt-2">See All Prices</a>
+          </div>
+          <!--/column -->
+          <div class="col-lg-7 offset-lg-1 pricing-wrapper">
+            <div class="pricing-switcher-wrapper switcher justify-content-start justify-content-lg-end">
+              <p class="mb-0 pe-3">Monthly</p>
+              <div class="pricing-switchers">
+                <div class="pricing-switcher pricing-switcher-active"></div>
+                <div class="pricing-switcher"></div>
+                <div class="switcher-button bg-primary"></div>
+              </div>
+              <p class="mb-0 ps-3">Yearly <span class="text-red">(Save 30%)</span></p>
+            </div>
+            <div class="row gy-6 position-relative mt-5">
+              <div class="shape bg-dot red rellax w-16 h-18" data-rellax-speed="1" style="bottom: -0.5rem; right: -1.6rem;"></div>
+              <div class="col-md-6">
+                <div class="pricing card shadow-lg">
+                  <div class="card-body pb-12">
+                    <div class="prices text-dark">
+                      <div class="price price-show"><span class="price-currency">$</span><span class="price-value">19</span> <span class="price-duration">month</span></div>
+                      <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">year</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <h4 class="card-title mt-2">Premium Plan</h4>
+                    <ul class="icon-list bullet-soft-primary mt-8 mb-9">
+                      <li><i class="uil uil-check fs-21"></i><span><strong>5</strong> Projects </span></li>
+                      <li><i class="uil uil-check fs-21"></i><span><strong>100K</strong> API Access </span></li>
+                      <li><i class="uil uil-check fs-21"></i><span><strong>200MB</strong> Storage </span></li>
+                      <li><i class="uil uil-check fs-21"></i><span> Weekly <strong>Reports</strong></span></li>
+                      <li><i class="uil uil-check fs-21"></i><span> 7/24 <strong>Support</strong></span></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
+              <!--/column -->
+              <div class="col-md-6 popular">
+                <div class="pricing card shadow-lg">
+                  <div class="card-body pb-12">
+                    <div class="prices text-dark">
+                      <div class="price price-show"><span class="price-currency">$</span><span class="price-value">49</span> <span class="price-duration">month</span></div>
+                      <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">year</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <h4 class="card-title mt-2">Corporate Plan</h4>
+                    <ul class="icon-list bullet-soft-primary mt-8 mb-9">
+                      <li><i class="uil uil-check fs-21"></i><span><strong>20</strong> Projects </span></li>
+                      <li><i class="uil uil-check fs-21"></i><span><strong>300K</strong> API Access </span></li>
+                      <li><i class="uil uil-check fs-21"></i><span><strong>500MB</strong> Storage </span></li>
+                      <li><i class="uil uil-check fs-21"></i><span> Weekly <strong>Reports</strong></span></li>
+                      <li><i class="uil uil-check fs-21"></i><span> 7/24 <strong>Support</strong></span></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="team">
+      <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6 mx-auto">
+              <h2 class="fs-16 text-uppercase text-muted mb-3">Our Team</h2>
+              <h3 class="display-4 mb-10 px-md-13 px-lg-4 px-xl-0">Think unique and be innovative. Make a difference with Sandbox.</h3>
+            </div>
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+          <div class="position-relative">
+            <div class="shape bg-dot blue rellax w-16 h-17" data-rellax-speed="1" style="bottom: 0.5rem; right: -1.7rem; z-index: 0;"></div>
+            <div class="shape rounded-circle bg-line red rellax w-16 h-16" data-rellax-speed="1" style="top: 0.5rem; left: -1.7rem; z-index: 0;"></div>
+            <div class="row grid-view gy-6 gy-xl-0">
+              <div class="col-md-6 col-xl-3">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te1.jpg" srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
+                    <h4 class="mb-1">Coriss Ambady</h4>
+                    <div class="meta mb-2">Financial Analyst</div>
+                    <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
+                    <nav class="nav social mb-0">
+                      <a href="#"><i class="uil uil-twitter"></i></a>
+                      <a href="#"><i class="uil uil-facebook-f"></i></a>
+                      <a href="#"><i class="uil uil-dribbble"></i></a>
+                    </nav>
+                    <!-- /.social -->
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-xl-3">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te1.jpg" srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
+                    <h4 class="mb-1">Cory Zamora</h4>
+                    <div class="meta mb-2">Marketing Specialist</div>
+                    <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
+                    <nav class="nav social mb-0">
+                      <a href="#"><i class="uil uil-twitter"></i></a>
+                      <a href="#"><i class="uil uil-facebook-f"></i></a>
+                      <a href="#"><i class="uil uil-dribbble"></i></a>
+                    </nav>
+                    <!-- /.social -->
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-xl-3">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te1.jpg" srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
+                    <h4 class="mb-1">Nikolas Brooten</h4>
+                    <div class="meta mb-2">Sales Manager</div>
+                    <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
+                    <nav class="nav social mb-0">
+                      <a href="#"><i class="uil uil-twitter"></i></a>
+                      <a href="#"><i class="uil uil-facebook-f"></i></a>
+                      <a href="#"><i class="uil uil-dribbble"></i></a>
+                    </nav>
+                    <!-- /.social -->
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-xl-3">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <img class="rounded-circle w-15 mb-4" src="./assets/img/avatars/te1.jpg" srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
+                    <h4 class="mb-1">Jackie Sanders</h4>
+                    <div class="meta mb-2">Investment Planner</div>
+                    <p class="mb-2">Fermentum massa justo sit amet risus morbi leo.</p>
+                    <nav class="nav social mb-0">
+                      <a href="#"><i class="uil uil-twitter"></i></a>
+                      <a href="#"><i class="uil uil-facebook-f"></i></a>
+                      <a href="#"><i class="uil uil-dribbble"></i></a>
+                    </nav>
+                    <!-- /.social -->
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /.position-relative -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="contact">
+      <div class="container py-6 py-md-8">
+        <div class="row gy-10 gx-lg-8 gx-xl-12">
+              <div class="col-lg-8">
+                <form class="contact-form needs-validation" method="post" action="./assets/php/contact.php" novalidate>
+                  <div class="messages"></div>
+                  <div class="row gx-4">
+                    <div class="col-md-6">
+                      <div class="form-floating mb-4">
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Jane" required>
+                        <label for="form_name">First Name *</label>
+                        <div class="valid-feedback"> Looks good! </div>
+                        <div class="invalid-feedback"> Please enter your first name. </div>
+                      </div>
+                    </div>
+                    <!-- /column -->
+                    <div class="col-md-6">
+                      <div class="form-floating mb-4">
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required>
+                        <label for="form_lastname">Last Name *</label>
+                        <div class="valid-feedback"> Looks good! </div>
+                        <div class="invalid-feedback"> Please enter your last name. </div>
+                      </div>
+                    </div>
+                    <!-- /column -->
+                    <div class="col-md-6">
+                      <div class="form-floating mb-4">
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="jane.doe@example.com" required>
+                        <label for="form_email">Email *</label>
+                        <div class="valid-feedback"> Looks good! </div>
+                        <div class="invalid-feedback"> Please provide a valid email address. </div>
+                      </div>
+                    </div>
+                    <!-- /column -->
+                    <div class="col-md-6">
+                      <div class="form-select-wrapper mb-4">
+                        <select class="form-select" id="form-select" name="department" required>
+                          <option selected disabled value="">Select a department</option>
+                          <option value="Sales">Sales</option>
+                          <option value="Marketing">Marketing</option>
+                          <option value="Customer Support">Customer Support</option>
+                        </select>
+                        <div class="valid-feedback"> Looks good! </div>
+                        <div class="invalid-feedback"> Please select a department. </div>
+                      </div>
+                    </div>
+                    <!-- /column -->
+                    <div class="col-12">
+                      <div class="form-floating mb-4">
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
+                        <label for="form_message">Message *</label>
+                        <div class="valid-feedback"> Looks good! </div>
+                        <div class="invalid-feedback"> Please enter your messsage. </div>
+                      </div>
+                    </div>
+                    <!-- /column -->
+                    <div class="col-12">
+                      <div class="form-check mb-4">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck"> I agree to <a href="#" class="hover">terms and policy</a>. </label>
+                        <div class="invalid-feedback"> You must agree before submitting. </div>
+                      </div>
+                    </div>
+                    <!-- /column -->
+                    <div class="col-12">
+                      <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Send message">
+                      <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                    </div>
+                    <!-- /column -->
+                  </div>
+                  <!-- /.row -->
+                </form>
+                <!-- /form -->
+              </div>
+              <!--/column -->
+              <div class="col-lg-4">
+                <div class="d-flex flex-row">
+                  <div>
+                    <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
+                  </div>
+                  <div>
+                    <h5 class="mb-1">Address</h5>
+                    <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
+                  </div>
+                </div>
+                <div class="d-flex flex-row">
+                  <div>
+                    <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
+                  </div>
+                  <div>
+                    <h5 class="mb-1">Phone</h5>
+                    <p>00 (123) 456 78 90 <br />00 (987) 654 32 10</p>
+                  </div>
+                </div>
+                <div class="d-flex flex-row">
+                  <div>
+                    <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-envelope"></i> </div>
+                  </div>
+                  <div>
+                    <h5 class="mb-1">E-mail</h5>
+                    <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-body">sandbox@email.com</a></p>
+                    <p><a href="mailto:help@sandbox.com" class="link-body">help@sandbox.com</a></p>
+                  </div>
+                </div>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="bg-navy text-inverse">
+    <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
+      <div class="d-lg-flex flex-row align-items-lg-center">
+        <h3 class="display-4 mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25 text-white">Join our community by using our services and grow your business.</h3>
+        <a href="#" class="btn btn-primary rounded-pill mb-0 text-nowrap">Try It For Free</a>
+      </div>
+      <!--/div -->
+      <hr class="mt-11 mb-12" />
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />
+            <p class="mb-4">© 2021 Sandbox. <br class="d-none d-lg-block" />All rights reserved.</p>
+            <nav class="nav social social-white">
+              <a href="#"><i class="uil uil-twitter"></i></a>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-dribbble"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-youtube"></i></a>
+            </nav>
+            <!-- /.social -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+            <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
+            <a href="mailto:#">info@email.com</a><br /> 00 (123) 456 78 90
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Learn More</h4>
+            <ul class="list-unstyled  mb-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-12 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
+            <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
+            <div class="newsletter-wrapper">
+              <!-- Begin Mailchimp Signup Form -->
+              <div id="mc_embed_signup2">
+                <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate dark-fields" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll2">
+                    <div class="mc-field-group input-group form-floating">
+                      <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
+                      <label for="mce-EMAIL2">Email Address</label>
+                      <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary ">
+                    </div>
+                    <div id="mce-responses2" class="clear">
+                      <div class="response" id="mce-error-response2" style="display:none"></div>
+                      <div class="response" id="mce-success-response2" style="display:none"></div>
+                    </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                    <div class="clear"></div>
+                  </div>
+                </form>
+              </div>
+              <!--End mc_embed_signup-->
+            </div>
+            <!-- /.newsletter-wrapper -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
+</body>
 
-    <div class="nav-container">
-			<nav class="nav-1">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<a href="#home" class="home-link">
-								<img alt="Logo" class="logo" src="img/logo-website.png">
-							</a>
-							<ul class="menu">
-								<li><a href="#home">Inicio</a></li>
-								<li><a href="#about" class="inner-link" target="default">A Empresa</a></li>
-								<li><a href="#services" class="inner-link" target="default">Serviços</a></li>
-								<li><a href="#work" class="inner-link" target="default">Clientes</a></li>
-								<li><a href="#contact" class="inner-link" target="default">Contato</a></li>
-							</ul>
-							
-							<ul class="social-links">
-								<li><a href="https://www.facebook.com/BrainUp" target="default"><i class="icon ti ti-facebook"></i></a></li>
-								<li><a href="https://www.youtube.com/channel/UCbNYT8I6LEZpG2FCbRL1FgQ" target="default"><i class="icon ti ti-youtube"></i></a></li>
-								<li><a href="https://www.linkedin.com/company/9368994" target="default"><i class="icon ti ti-linkedin"></i></a></li>
-							</ul>
-						</div>
-					</div><!--end of row-->
-				</div><!--end of container-->
-			
-				<div class="mobile-toggle">
-					<div class="bar-1"></div>
-					<div class="bar-2"></div>
-				</div>
-			</nav>
-		</div>
-		
-		<div class="main-container">
-					
-			<a id="home" class="in-page-link"></a>
-			
-			<section class="hero-slider large-image fixed-header restrict-hero-height">
-				<ul class="slides">
-					<li>
-						<div class="background-image-holder">
-							<img alt="Slide Background" class="background-image" src="img/hero3.jpg">
-						</div>
-		
-						<div class="container vertical-align">
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<h1 class="text-white">Não construimos software, nós inovamos.</h1>
-								</div>
-							</div>
-						</div><!--end of container-->	
-					</li>
-		
-					<li>
-						<div class="background-image-holder">
-							<img alt="Slide Background" class="background-image" src="img/hero6.jpg">
-						</div>
-		
-						<div class="container vertical-align">
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<h1 class="text-white">O caminho entre idéias e resultados.</h1>
-								</div>
-							</div>
-						</div><!--end of container-->	
-					</li><li>
-						<div class="background-image-holder overlay">
-							<img alt="Slide Background" class="background-image" src="img/hero7.jpg">
-						</div>
-		
-						<div class="container vertical-align">
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<h1 class="text-white">Apaixonados por tecnologia.</h1>
-								</div>
-							</div>
-						</div><!--end of container-->	
-					</li>
-				</ul>
-			</section>
-			
-			
-			
-			<a id="about" class="in-page-link"></a>
-
-			<section class="no-pad fullwidth color-features">
-				<div class="col-md-4">
-					<div class="color-feature">
-						<div class="detail-line"></div>
-						<h5 class="alt-font text-white">O que fazemos</h5>
-						<i class="pe-7s-light"></i>
-						<h5 class="text-white">Não construimos software, nós inovamos.</h5>
-						<p class="text-white">
-							Software para web e mobile: Aplicativos, lojas, integração com sistemas corporativos e cloud.
-						</p>
-					</div>
-				</div><!--end of color feature-->
-			
-				<div class="col-md-4">
-					<div class="color-feature">
-						<div class="detail-line"></div>
-						<h5 class="alt-font text-white">Como fazemos</h5>
-						<i class="glyphicon glyphicon-send"></i>
-						<h5 class="text-white">Queremos transformar a sua ideia em um produto rentável.</h5>
-						<p class="text-white">
-							Aplicamos as modernas metodologias como Design Thinking, Lean Startup e Agilidade.
-						</p>
-					</div>
-				</div><!--end of color feature-->
-			
-				<div class="col-md-4">
-					<div class="color-feature">
-						<div class="detail-line"></div>
-						<h5 class="alt-font text-white">Quem somos</h5>
-						<i class="pe-7s-users"></i>
-						<h5 class="text-white">Trabalhamos com dedicação em cada detalhe.</h5>
-						<p class="text-white">
-							Somos equipe apaixonada por inovação e tecnologia, formada por especialistas.
-						</p>
-					</div>
-				</div><!--end of color feature-->
-			</section>
-			
-			<a id="services" class="in-page-link"></a>
-			
-			<section class="feature-lists">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="text-block">
-								<div class="detail-line"></div>
-								<h5>Nosso Serviços</h5>
-							</div>
-						</div>
-					</div><!--end of row-->
-				
-					<div class="row">
-						<div class="col-md-4 col-sm-6">
-							<div class="feature-list">
-								<i class="icon icon-large pe-7s-cloud"></i>
-								<h5>Web & Mobile</h5>
-								<p>
-									Desenvolvimento de softwares e serviços de tecnologia
-								</p>
-								<ul class="arrow-list">
-									<li>Web Design</li>
-									<li>Web Applications</li>
-									<li>Mobile</li>
-									<li>Cloud</li>
-								</ul>
-							</div>
-						</div>
-					
-						<div class="col-md-4 col-sm-6">
-							<div class="feature-list">
-								<i class="icon pe-7s-server icon-large"></i>
-								<h5>Sistema Corporativos</h5>
-								<p>
-									Desenvolvimento, manutenção e implantação de novas funcionalidades.
-								</p>
-								<ul class="arrow-list">
-									<li>.NET</li>
-									<li>JAVA</li>
-									<li>PHP</li>
-									<li>Ruby</li>
-								</ul>
-							</div>
-						</div>
-					
-						<div class="col-md-4 col-sm-6">
-							<div class="feature-list">
-								<i class="icon icon-large pe-7s-light"></i>
-								<h5>Consultoria & Aceleração</h5>
-								<p>
-									Apoiamos a transformação de sua idéia em um produto rentável
-								</p>
-								<ul class="arrow-list">
-									<li>Planejamento</li>
-									<li>Validação</li>
-									<li>Marketing Digital</li>
-									<li>MVP</li>
-								</ul>
-							</div>
-						</div>
-					</div><!--end of row-->
-				</div><!--end of container-->
-			</section>
-			
-			
-			
-			<a id="work" class="in-page-link"></a>
-			
-			<section class="clients-1">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<div class="text-block">
-								
-								<p class="super-lead text-white"><b>Alguns de nossos clientes que tivemos o prazer de trabalhar.</b></p>
-							</div>
-						</div>
-					</div><!--end of row-->
-				
-					<div class="row">
-						<div class="col-md-3 col-sm-6 text-center">
-							<img alt="Client" src="img/c1.png">
-						</div>
-					
-						<div class="col-md-3 col-sm-6 text-center">
-							<img alt="Client" src="img/c2.png">
-						</div>
-					
-						<div class="col-md-3 col-sm-6 text-center">
-							<img alt="Client" src="img/c5.png">
-						</div>
-
-						<div class="col-md-3 col-sm-6 text-center">
-							<img alt="Client" src="img/c7.png">
-						</div>
-						
-					
-					</div><!--end of row-->
-				</div><!--end of container-->
-			</section>
-			
-			<section class="testimonials" style="margin-top:-85px">
-				<ul class="slides">
-					<li>
-						<div class="container">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 text-center">
-									<p class="super-lead text-white">
-										“A Brainup possui uma metodologia de desenvolvimento moderna, seguindo a filosofia de não apenas criar um produtos tecnológicos, mas também atingir um elevado padrão de engenharia de software com a participação do cliente.”
-									</p>
-									<span class="alt-font">Prof. Ivan de Oliveira / Coordenador do ITIC Digital</span>
-								</div>
-							</div><!--end of row-->
-						</div><!--end of container-->
-					</li>
-				</ul>
-			</section>
-			
-			<a id="contact" class="in-page-link"></a>
-			 
-			<footer class="footer-6">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4 col-sm-4">
-							<a href="#home"  target="default">
-								<img alt="Logo"  src="img/logo-website-footer.png">
-							</a>
-						</div>
-					
-						<div class="col-md-8 col-sm-8">
-							<p style=" font-size: 16px;  color: #00051E;">
-								Inscreva-se para receber promoções e notícias.
-							</p>
-
-
-						
-							<form class="form-newsletter" data-success="Obrigado, Nós iremos em breve entrar em contato." data-error="Por favor =, digite um e-mail válido">
-								<input type="text" style="color:#000" name="email" class="validate-required validate-email input-standard signup-email-field" placeholder="E-mail">
-								<input type="submit">
-								<i class="icon pe-7s-angle-right text-white"></i>
-								<iframe class="mail-list-form" srcdoc="<!-- Begin MailChimp Signup Form -->
-									<link href='http://cdn-images.mailchimp.com/embedcode/classic-081711.css' rel='stylesheet' type='text/css'>
-									<style type='text/css'>
-										#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-										/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-										   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-									</style>
-									<div id='mc_embed_signup'>
-									<form action='http://brainupti.us10.list-manage.com/subscribe/post?u=96ba01a31a8b40a8fcdf75b03&amp;id=4a1f6418b2' method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' class='validate' target='_blank' novalidate>
-									    <div id='mc_embed_signup_scroll'>
-										
-									<div class='indicates-required'><span class='asterisk'>*</span> indicates required</div>
-									<div class='mc-field-group'>
-										<label for='mce-EMAIL'>Email Address  <span class='asterisk'>*</span>
-									</label>
-										<input type='email' value='' name='EMAIL' class='required email' id='mce-EMAIL'>
-									</div>
-									<div class='mc-field-group'>
-										<label for='mce-FNAME'>First Name </label>
-										<input type='text' value='' name='FNAME' class='' id='mce-FNAME'>
-									</div>
-									<div class='mc-field-group'>
-										<label for='mce-LNAME'>Last Name </label>
-										<input type='text' value='' name='LNAME' class='' id='mce-LNAME'>
-									</div>
-										<div id='mce-responses' class='clear'>
-											<div class='response' id='mce-error-response' style='display:none'></div>
-											<div class='response' id='mce-success-response' style='display:none'></div>
-										</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-									    <div style='position: absolute; left: -5000px;' aria-hidden='true'><input type='text' name='b_96ba01a31a8b40a8fcdf75b03_4a1f6418b2' tabindex='-1' value=''></div>
-									    <div class='clear'><input type='submit' value='Subscribe' name='subscribe' id='mc-embedded-subscribe' class='button'></div>
-									    </div>
-									</form>
-									</div>
-									<script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-									<!--End mc_embed_signup-->">
-								</iframe>
-							</form>
-							
-						</div>
-					</div><!--end of row-->
-				
-					<div class="row">
-						<div class="col-xs-12">
-							<div class="footer-lower">
-								<span style="font-size:14px"><b>Fortaleza-CE. Brasil.</b></span>
-								<br>
-								<span style="font-size:14px">© 2015 - Brain Up - Feito por quem </span>
-								<i class="icon pe-7s-like"></i><span style="font-size:14px"> Software Livre</span>
-							</div>
-						</div>
-					</div>
-				
-				</div><!--end of container-->
-			</footer>
-		</div>
-		
-				
-		<script src="js/jquery.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/skrollr.min.js"></script>
-        <script src="js/flexslider.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
-        <script src="js/twitterfetcher.min.js"></script>
-        <script src="js/spectragram.min.js"></script>
-        <script src="js/smooth-scroll.min.js"></script>
-        <script src="js/jquery.plugin.min.js"></script>
-        <script src="js/countdown.min.js"></script>
-        <script src="js/placeholders.min.js"></script>
-        <script src="js/parallax.js"></script>
-    	<script src="js/scripts.js"></script>
-
-    	<!-- BEGIN JIVOSITE CODE {literal} -->
-		<script type='text/javascript'>
-		(function(){ var widget_id = 'PULMm90Le6';
-		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
-		<!-- {/literal} END JIVOSITE CODE -->
-    </body>
 </html>
-
-				
