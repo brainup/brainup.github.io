@@ -1,0 +1,55 @@
+/* NAVBAR */
+#navbar a {
+  color: #faf5f5;
+}
+
+  #navbar a:hover {
+      color:#faf5f5;
+      border-bottom: 0.5px solid #eee9e9;
+      font-weight: bolder;
+  }
+
+.navbar-brand {
+  display: flex;
+}
+
+  .navbar-brand img {
+      width: 100px;
+  }
+
+  .navbar-brand span {
+      font-weight: 400;
+      font-size: 1.0em;
+      margin-left: 1.5em;
+  }
+
+#navbar-items .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  letter-spacing: 0.1em;
+}
+
+#navbar-items .nav-item {
+  margin: 0 1em;
+}
+/*/NAVBAR*/
+body{
+  height: 100vh;
+  background-image: url("../img/FOTO\ 1-100.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.tela01{
+  position: relative;
+  width: 800px;
+  height: 250px;
+   background: transparent;
+   top: 180px;
+   left: 60px;
+   color: beige;
+      }
+  h1{
+      font-family: 'Times New Roman', Times, serif;
+  }
