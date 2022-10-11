@@ -1,111 +1,385 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrainUp</title>
-
-     <!-- Google fonts Montserrat -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
-     rel="stylesheet">
-
-    <!-- CSS bootstrap -->
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-          crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous">
-    </script>
-
-    <!--CSS do projeto -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!--Bootstrap Icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-
-    <!-- JavaScript Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous">
-    </script>
-
-<!-- GetButton.io widget -->
-
-    
-
-    <script type="text/javascript" async="" src="https://static.getbutton.io/widget-send-button/js/init.js"></script><script type="text/javascript">
-        (function () {
-            var options = {
-                whatsapp: "+55 85 8726-1031", // WhatsApp number
-                call_to_action: "Alguma dúvida? Entre em contato.", // Call to action
-                button_color: "#FF6550", // Color of button
-                position: "right", // Position may be 'right' or 'left'
-                pre_filled_message: "Olá, como podemos ajudar?", // WhatsApp pre-filled message
-            };
-            var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
-            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-        })();
-    </script>
-
-
-
-<div id="gb-widget-5850" style="bottom: 14px; right: 16px; opacity: 1; transition: opacity 0.5s ease 0s; box-sizing: border-box; direction: ltr; text-align: right; position: fixed !important; z-index: 16000160 !important;"><div class="q8c6tt-2 eiGYSu"><a size="50" href="https://wa.me/558587261031?text=Ol%C3%A1%2C%20como%20podemos%20ajudar%3F" target="_blank" color="#4dc247" id="" class="q8c6tt-0 jWcIXO"><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;"><path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"></path></svg></a></div><div size="50" class="sbsi7l-0 evMtho"><div class="sc-1au8ryl-0 dmopMx"></div></div></div></body>
-<!-- /GetButton.io widget -->
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--LINKS DE FUNCIONALIDADE-->
+  <!--Importação do CSS do Botstrap5-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--fim da Importação do CSS do Botstrap5-->
+  <!--CSS do projeto-->
+  <link rel="stylesheet" href="style.css">
+  <!--fim do CSS do projeto-->
+  <!--Importação das fontes do google fontes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!--fim da Importação das fontes do google fontes-->
+  <!--FIM DOS LINKS DE FUNCIONALIDADE-->
+  <title>BrainUp</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-        <div class="container py-3">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo2.png" alt="BrainUp" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
-                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="bi bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-items">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SERVIÇOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">QUEM SOMOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">METODOLOGIA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CASES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">NOSSO TIME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTATO</a>
-                    </li>
-                </ul>
-            </div>
+
+<body class="container-fluid">
+  <!--Botão flutuante do WhastsApp + css do Botstrap5 icons-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://wa.me/5585987261031?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+  </a>
+  <!--fim do Botão flutuante do WhastsApp + css do Botstrap5 icons-->
+  <!--barra de navegação da BrainUp-->
+  <header>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../html/img/logo2.png" alt="BrainUp" class="img_logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-items">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">SERVIÇOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">QUEM SOMOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">METODOLOGIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CASES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NOSSO TIME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTATO</a>
+            </li>
+          </ul>
         </div>
     </nav>
-    <div class="tela01">
-        <h1>RUMO À UMA</h1><h1><strong>TRANSFORMAÇÃO </strong></h1><h1><strong>DIGITAL</strong> DIFERENCIADA</h1>
-        <p>Precisa de soluções em softwares inteligentes?</p>
-        <p>VOCÊ ESTÁ NO LUGAR CERTO!</p>
-        <button type="button" class="btn btn-primary btn-lg">QUERO RECEBER UMA PROPOSTA!</button> 
-    </div>
+    <!--fim da navbar-->
+  </header>
+  <!--fim da barra de navegação da BrainUp-->
+
+  <!--conteúdo principal da BrainUp-->
+  <main>
+    <!--conteúdo da tela 01 da BrainUp-->
+    <section>
+      <div class="row align-items-start imagem-tela01">
+        <div class="col-sm-6">
+          <div class="row">
+            <h1 class="h1">RUMO À UMA<br><span>TRANSFORMAÇÃO</span><br><span>DIGITAL</span> DIFERENCIADA
+            </h1>
+            <p>Precisa de soluções em softwares inteligentes?<br>
+              VOCÊ ESTÁ NO LUGAR CERTO! </p>
+          </div>
+          <div class="col-sm-8">
+            <div class="row"><button type="button" class="p-2 buttom_tela"> <strong>QUERO RECEBER UMA
+                  <!--classe botão da section01 e chama a classe buttom_tela-->
+                  PROPOSTA!
+                </strong> </button></div>
+          </div>
+        </div>
+        <div class="col-sm-6 ">
+          <img src="../html/img/FOTO 1-100.png" alt="section01" class="img">
+        </div>
+      </div>
+    </section>
+    <!--fim do conteúdo da tela 01 da BrainUp-->
+
+    <!-- conteúdo da tela 02 da BrainUp-->
+    <section>
+      <!--criei uma linha e três colunas. Na primeira linha puis uma div com uma coluna , depois na segunda e terceira coluna criei duas rows , justifiquei o texto e puis margens na esquerda e na direita iguais-->
+
+      <div class="row align-items-start justify-content-around ">
+        <div class="row align-items-center">
+          <div class="col">
+            <h3>ACHE A <span>MELHOR<br>
+                SOLUÇÃO </span>PARA<br>
+              SEU NEGÓCIO!<br></h3>
+            <div class="col">
+              <button type="button" class="btn btn-primary btn-sm buttom_tela"> <strong> QUERO CONHCER
+                  MAIS!</strong></button>
+              <!--classe botão da section02 e chama a classe buttom_tela-->
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="row justify-content-around">
+              <!--around deixa um espaçamento igaul entre os cards-->
+              <div class="card height_card">
+
+                <div class="card-body">
+                  <h6 class="card-title justify_titulocard ">DESENVOLVIMENTO<br> E SUPORTE</h6>
+                  <h6 class="card-text small justify-content-right justify">
+                    Ter processos únicos torna-se um
+                    grande diferencial em sua empresa!
+                    Logo, te ajudamos no planejamento e
+                    criação de softwares, suporte e melhorias de plataformas existentes e alo-
+                    cação de times para projetos ágeis!</h6>
+                </div>
+              </div>
+              <div class="row justify-content-around gy-2">
+                <div class="card height_card">
+
+                  <div class="card-body">
+                    <h6 class="card-title justify_titulocard">LEI GERAL DE<br>
+                      <!--criei essa classe para justificar o texto do título no css-->
+                      PROTEÇÃO DE DADOS
+                    </h6>
+                    <h6 class="card-text small justify">Sua empresa ainda não está adequada à
+                      LGPD? Atuamos na identificação dos
+
+                      riscos e proposição de soluções para se-
+                      gurança de dados do seu negócio!</h6>
+                    <a href="#" class="btn btn-link buttom_card">SAIBA MAIS!</a>
+                    <!--criei a classe height card para definir a sua altura no css-->
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!--utilizei o h6 pois possui a letra menor do que o p -->
+          <div class="col">
+            <div class="row justify-content-around">
+              <div class="card height_card">
+                <!--criei a classe height card para definir a sua altura no css-->
+
+                <div class="card-body">
+                  <h6 class="card-title justify_titulocard">CONSULTORIA</h6>
+                  <!--criei essa classe para justificar o texto do título no css-->
+                  <h6 class="card-text small justify">Utilizamos o design thinking para
+                    fazer um diagnóstico profundo de
+
+                    seu sistema, mostrando insights in
+                    teligentes que vão te ajudar a en
+                    contrar melhores soluções para seu
+
+                    negócio!</h6>
+                </div>
+              </div>
+              <div class="row justify-content-around gy-2">
+                <div class="card height_card">
+
+                  <div class="card-body">
+                    <h6 class="card-title justify_titulocard">EDUCAÇÃO</h6>
+                    <h6 class="card-text small justify">Uma coisa é certa: conhecimento
+
+                      gera impacto! Aprenda já pro-
+                      gramação com pessoas total-
+                      mente experientes e alavanque
+
+                      sua carreira DEV!</h6>
+                    <a href="#" class="btn btn-link buttom_card">SAIBA MAIS!</a>
+                    <!--criei essa classe para definir o estilo do link-->
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--fim do conteúdo da tela 02 da BrainUp-->
+
+    <!-- conteúdo da tela 03 da BrainUp-->
+    <section >
+      <div class="row cortela03  " > <!--essa classe define a imagem da tela 03-->
+        <div class="col justify-content-around">
+          <h3 class="justify_titulo-selecao">QUEM SOMOS E<br> <!--classe referente ao título da seleção-->
+            PORQUÊ SOMOS!</h3>
+            <p></p>
+          <h6 class=" small justify">
+            Temos <strong><mark class="cor"> 15 anos de experiência </strong></mark> com profissionais <!-- classe referente ao destaque das frases/palavras da seleção-->
+      
+            qualificados nas principais tecnologias e metodolo-
+            gias de mercado!<br>
+            <p></p>
+            Acreditamos em como inovação e tecnologia tem
+            um verdadeiro <strong> <mark class="cor">impacto</mark></strong>  no mundo! Dessa forma,
+            nos <strong> <mark class="cor">apaixonamos</mark></strong>  por cada detalhe que torna esse
+            processo transformador!<br>
+            <p></p>
+            Mas além de paixão, temos também RESULTADOS!
+            Nossa cultura e metodologia permite que nossos es-
+            pecialistas tragam <strong> <mark class="cor">soluções</mark></strong>  que fazem a diferença.<br>
+            <p></p>
+          </h6>
+        </div>
+        <div class="col tamanho-coluna">  <!--essa classe define o tamnaho da coluna que contém a row principal da tela 03 -->
+          
+        </div>
+      </div>
+    </section>
+    <!--fim do conteúdo da tela 03 da BrainUp-->
+
+    <!--início do conteúdo da tela 04 da BrainUp-->
+     <section id="metodologia"> <!--id criado para tornar-se pai dos cards -->
+      <div class="row justify-content-center color"><!--  classe criada para definir a cor da fonte da section04 -->
+        <div class="col  position01"> <!-- posição que a coluna terá em relação a linha principal -->
+           <h1 class="destaque"> <strong> AS 4 CHAVES PARA AGILIDADE E PERFEIÇÃO</strong></h1><br><!-- destaque do texto da section 04 -->
+          <p class="destaque">Para que seu negócio tenha uma solução eficaz, ágil e com qualidade,<br>
+      
+            aplicamos a metodologia do <strong><mark class="cor">Lean Thinking!</mark></strong> Conheça mais:</p>
+        </div>
+        <div class="row justify-content-center ">
+          <img src="../html/img/elenento_fluxograma.png" class="ajustes-fluxograma" alt="section04"> <!--largura da imagem da tela 04-->
+          <div class="row justify-content-around">
+      
+            <div class="card height_card1">
+              <!--criei a classe height card para definir a sua altura no css-->
+      
+              <div class="card-body">
+                <h6 class="card-title justify_titulocard">1. IDEALIZAR</h6>
+                <!--criei essa classe para justificar o texto do título no css-->
+                <h6 class="card-text small justify">Junto com você vamos
+
+                  fazer um diagnóstico, le-
+                  vantar pontos e traçar as
+                  
+                  metas e expectativas
+                  para seu projeto.</h6>
+              </div>
+            </div>
+            
+            <div class="card height_card1" >
+              <!--criei a classe height card para definir a sua altura no css-->
+      
+              <div class="card-body">
+                <h6 class="card-title justify_titulocard">2. DESENVOLVER</h6>
+                <!--criei essa classe para justificar o texto do título no css-->
+                <h6 class="card-text small justify">Dividindo as entregas nas
+                  chamadas Sprint's, damos
+                  o start nos trabalhos com
+                  seu acompanhamento
+                  durante cada ciclo. Uma
+                  etapa super importante
+                  para alcançar o resultado
+                  
+                  preciso!</h6>
+              </div>
+            </div>
+            
+            <div class="card height_card1" >
+              <!--criei a classe height card para definir a sua altura no css-->
+      
+              <div class="card-body">
+                <h6 class="card-title justify_titulocard">3. OTIMIZAR</h6>
+                <!--criei essa classe para justificar o texto do título no css-->
+                <h6 class="card-text small justify">Depois da aprovação do
+                  projeto vamos fazer os
+                  
+                  refinamentos e melho-
+                  rias necessárias para a
+                  
+                  entrega final e seu
+                  lançamento.</h6>
+              </div>
+            </div>
+            
+            <div class="card height_card1"  >
+              <!--criei a classe height card para definir a sua altura no css-->
+      
+              <div class="card-body">
+                <h6 class="card-title justify_titulocard">4. REVISAR</h6>
+                <!--criei essa classe para justificar o texto do título no css-->
+                <h6 class="card-text small justify">Vamos checar cada
+
+                  ponto do projeto fazen-
+                  do melhorias impor-
+                  tantes para uma ótima
+                  
+                  experiência e visual-
+                  ização de valor por parte
+                  
+                  do usuário final.</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--fim do conteúdo da tela 04 da BrainUp-->
+
+  <!--início do conteúdo da tela 05 da BrainUp-->
+  <section id="tela05" style="background-image: url() ;">
+    <div class="row justify-content-center img-tela05"><!--  classe criada para definir a cor da fonte da section04 -->
+      <div class="col  position01"> <!-- posição que a coluna terá em relação a linha principal -->
+         <h2 class="caixa"> <em> “A Brainup possui uma metodologia de desenvolvimento
+
+          moderna, seguindo a filosofia de não apenas criar um produtos
+          
+          tecnológicos, mas também atingir um elevado padrão de
+          engenharia de software com a participação do cliente.”</em></h2><!-- destaque do texto da section 04 -->
+        <h2><strong>PROF. IVAN DE OLIVEIRA</strong></h2>
+        <p></p>
+        <h4>COORDENADOR DO ITIC DIGITAL</h4>
+      </div></div>
+  </section>
+  <!--fim do conteúdo da tela 05 da BrainUp-->
+   
+    <!-- <section> p<br>
+          op<br>
+          pp<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>p<br>
+          op<br>
+          pp<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>
+          p<br>p<br>
+          op<br>
+          pp<br>
+          p<br></section> -->
+  </main>
+  <!--fim do conteúdo principal da BrainUp-->
+
+  <!--rodapé do site da BrainUp-->
+  <footer>
+
+  </footer>
+  <!-- fim do rodapé do site da BrainUp-->
+
+  <!--importação do JavaScript do Botstrap5-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!--fim da importação do JavaScript do Botstrap5-->
+
 </body>
+
 </html>
+
+
+
+
+
