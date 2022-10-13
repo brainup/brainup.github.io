@@ -1,18 +1,16 @@
 /*Corpo do site Body*/
-html {
-    height: 100%;
-}
+
 body {
-    font-family: 'Montserrat', sans-serif;
-    color: #f5f5f5;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-repeat: no-repeat;    
-    font-family: Montserrat, sans-serif;
-    background: linear-gradient(135deg, #AB13B7, #160E73);
-   
-}
+  font-family: 'Montserrat', sans-serif;
+  color: #f5f5f5;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;    
+  font-family: Montserrat, sans-serif;
+  background: linear-gradient(135deg, #AB13B7, #160E73);
+
+ }
 
 
 
@@ -54,6 +52,11 @@ body {
 
 /*main*/
 /*section01*/
+
+
+.tamanho-coluna-tela01{
+  height: 600px;
+}
 
 .h1{
   
@@ -117,12 +120,14 @@ body {
      background: transparent; 
      background: linear-gradient(135deg,#AB13B7,#160E73);
      border-radius: 10px;
+     color: #f5f5f5;
   }
   .card:hover{
     cursor: pointer;
     background: transparent;
-    border-color: rgb(83, 236, 141);
-    transition: 0.5s;
+    border-color: rgb(83, 236, 141) ;
+    transition: 0.5s ; 
+    font-weight: 600;
   }
   
   .buttom_card{  /*criei essa classe para definir o estilo do link*/
@@ -150,6 +155,7 @@ body {
     height: 100px ;
     
   }
+ 
   .height_card{ /*criei essa classe para definir a altura dos cards*/
     height: 200px;
   }
@@ -159,4 +165,90 @@ body {
   
   }
 /*fim da section02*/
+
+/*início da section03*/
+
+.cortela03{ /*essa classe define a imagem da tela 03*/
+  background-image: url(../html/img/foto3-10500.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tamanho-coluna{  /*essa classe define o tamnaho da coluna que contém a row principal da tela 03*/
+  height: 400px;
+}
+
+/* classes da section 03*/
+
+.cor{ /*classe referente ao destaque das frases/palavras da seleção*/
+  background-color: rgb(83, 236, 141);
+  color: rgb(22, 14, 115);
+}
+
+/* fim da div da section 03*/
+
+/*fim da section03*/
+
+/*início da section04*/
+.position01{ /*posição que a coluna terá em relação a linha principal*/
+  text-align: center;
+
+}
+.destaque{ /*destaque do texto da section 04*/
+  color: rgb(22, 14, 115);
+}
+.color{ /*classe criada para definir a cor da fonte da section04*/
+  background-color: #faf5f5;
+
+  font-weight: 600;
+}
+
+
+.ajustes-fluxograma{ /*largura da imagem da tela 04*/
+  width: 60%;
+  
+}
+
+.height_card1{ /*criei essa classe para definir a altura dos cards*/
+  height: 170px;
+}
+
+#metodologia  .card{  /*id criado para tornar-se pai dos cards*/
+  width: 18rem;
+  color: #f5f5f5;
+  background: linear-gradient(135deg,#AB13B7,#160E73);
+  border-radius: 10px;
+}
+
+
+#metodologia .card:hover{
+  cursor: pointer;
+  background: transparent;
+  border-color: #AB13B7 ;
+  transition: 0.5s;
+  color: #160E73;
+  font-weight: 800;
+}
+
+/*fim da section04*/
+
+/*início da section05*/
+#tela05 .caixa{
+  align-items: center;
+  font-weight: 100 italic;
+}
+
+#tela05 .color{
+  color: #f5f5f5;
+}
+#tela05 .row{
+  background-image: url(../html/img/ELEMENTO_CAIXA\ VERDE.png);
+  background: linear-gradient(#ab13b7,#160e73);
+}
+.img-tela05{
+
+}
+
+
+/*fim da section05*/
+
 /*fim do main*/
