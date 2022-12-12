@@ -682,3 +682,63 @@ right: 50%;
 
 }
 }
+@media (min-width: 568px) and (max-width: 767px) {
+  br{
+    display: none;
+  }
+ .p2{
+  text-align: center;
+ }
+ #section02 .CardTel02{
+  margin: 0;
+ }
+ .h3{
+  text-align: center;
+ }
+  .Ctela1{
+    display: none;
+  }
+
+  #section02 .height_card{ /*criei essa classe para definir a altura dos cards*/
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+  }
+
+  .ajustes-fluxograma{ /*largura da imagem da tela 04*/
+    display: none;
+
+  }
+  #section02 .card{
+        font-size: 14px;
+    }
+    #metodologia  .card{
+      font-size: 14px;
+    }
+    #nomes .card{
+      font-size: 14px;
+    }
+    #metodologia .height_card1{ /*criei essa classe para definir a altura dos cards*/
+      height: 200px;
+      width: 250px;
+      margin: 3px;
+      padding: 3px;
+      color: #f5f5f5;
+      background: linear-gradient(135deg,#AB13B7,#160E73);
+      border-radius: 10px;
+    }
+    .position01{ /*posição que a coluna terá em relação a linha principal*/
+      text-align: center;
+      width: 100%;
+
+    }
+    .coltab{
+      width: 80%;
+    }
+    .h2-footer {
+      color: rgb(83, 236, 141);
+      text-align: center;
+      margin-top: 30px;
+  }
+  }
+
