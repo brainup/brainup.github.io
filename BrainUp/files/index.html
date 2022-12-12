@@ -16,24 +16,29 @@
     <title>Brain Up</title>
 </head>
 
-<body>
+<body style="--bs-gutter-x: 0 !important;">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://wa.me/5585987261031?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
             z-index:1000;" target="_blank">
         <i style="margin-top:16px" class="fa fa-whatsapp"></i>
     </a>
+ 
     <main class="container-fluid" style="--bs-gutter-x: 0; --bs-gutter-y: 0;">
         <!-- início da tela -->
         <section class="Tel01 ImgTel1">
-            <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-dark " id="navbar">
                 <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: 2px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                      viewBox="0 0 16 16" style="width: 32; height:32;">
+                      <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                  </button>
                     <a class="navbar-brand" href="#">       
-                        <img src="../imagens/logo.jpg" alt="BrainUp" class="ImgLogoTelNav offset-11">
+                        <img src="../imagens/BrainUp_logo3.png" alt="BrainUp" class="ImgLogoTelNav">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbar-items" aria-controls="navbarNav" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    </button>
                     <div class="collapse navbar-collapse" id="navbar-items">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
@@ -61,7 +66,7 @@
                     </div>
                 </div>
             </nav>
-            <div class="row ">
+            <div class="row Linha1Mobile" >
                 <div class="col-md-5 PosicaoCol1Tel1">
                     <h1>RUMO À UMA <strong>TRANSFORMAÇÃO </strong><strong>DIGITAL</strong> DIFERENCIADA!
                     </h1>
@@ -83,7 +88,7 @@
     <section id="section02">
         <div class="row text-md-center GradientTel02">
           
-                    <div class="col-md-3 CardTel02">
+                    <div class="col-md-3 col-xs-12 CardTel02">
                         <h3 class="h3">ACHE A <span>MELHOR<br>
                             SOLUÇÃO </span>PARA<br>
                           SEU NEGÓCIO!<br></h3>
@@ -93,7 +98,7 @@
                         </div>
             
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-12 CardTel02Mobile">
                         <div class="card height_card ">
 
                             <div class="card-body">
@@ -107,7 +112,7 @@
                             </div>
                           </div> 
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-12">
                         <div class="card height_card ">
                             <!--criei a classe height card para definir a sua altura no css-->
             
@@ -130,7 +135,7 @@
 
                     </div>
                     
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-12">
                         <div class="card height_card ">
 
                             <div class="card-body">
@@ -148,7 +153,7 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-xs-12">
                         <div class="card height_card ">
 
                             <div class="card-body">
@@ -177,8 +182,8 @@
             <div class="col-md-7">
                 <div class="row">
                     <div class="col-sm-2">
-                        <img src="../imagens/logo.jpg" alt="BrainUp" class="img_logo-03" ></div>
-                        <div class="col">
+                        <img src="../imagens/BrainUp_logo3.png" alt="BrainUp" class="img_logo-03" ></div>
+                        <div class="col" style="margin: auto;">
                         <h3 class="titulo-selecao"> QUEM SOMOS E <!--classe referente ao título da seleção-->
                       PORQUÊ SOMOS!</h3>
                         </div>
@@ -348,7 +353,7 @@
                 </div>
             
                 <div class="col-md-4">
-                    <div class="card" style="width: 13rem; margin: auto; margin-top: 50px;">
+                    <div class="card CardTel06" style="border-color:#ab13b7; border-radius: 25px; ">
                         <img src="../imagens/LGPD_SITE_P4-400.png" class="ImagemRepresentantesTel06" alt="...">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -356,7 +361,7 @@
                       </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card" style="width: 13rem; margin: auto; margin-top: 50px;">
+                    <div class="card CardTel06" style="border-color:#ab13b7 ; border-radius: 25px; ">
                         <img src="../imagens/WhatsApp Image 2022-11-14 at 09.36.50.jpeg" class="ImagemRepresentantesTel06" alt="...">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -364,25 +369,134 @@
                       </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card" style="width: 13rem; margin: auto; margin-top: 50px;">
+                    <div class="card CardTel06" style="border-color:#ab13b7;  border-radius: 25px; " >
                         <img src="../imagens/gonçalves.jpeg" class="ImagemRepresentantesTel06" alt="...">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                       </div>
                 </div>
-            
-                
-                  
-                  
-            </div>
+             </div>
         </section>
         <!-- fim da tela 06-->
+        <!-- início da tela 07 -->
+        <section id="formulario" >
+
+            <div class="row p-5 img-tela07">
+              <div class="col-sm-6 "><h1 class="CorText">PREPARADO(A) PARA TER 
+                SUA <strong class="CorText"> SOLUÇÃO DIGITAL</strong> 
+                PERSONALIZADA?</h1>
+                <p></p>
+                <h5 class="CorText">Preencha o formulário e entre em <br>
+                contato com nossa equipe!</h5>
+              </div>
+        
+                  <div class="row d-flex justify-content-right align-items-right">
+                    <div class="col-md-4 coltab">
+                      <form action="#" id="regForm">
+        
+                        <div class="all-steps" id="all-steps"> <span class="step"></span> <span class="step"></span> <span
+                            class="step"></span> <span class="step"></span> </div>
+                        <div class="tab">
+        
+                          <div class="caixa">
+                            <input class="p-3" name="nome" type="name" placeholder="seu nome">
+        
+                          </div>
+        
+                          <div class="caixa">
+                            <input class="p-3" type="email" placeholder="seu email profissional">
+        
+                          </div>
+                          <div class="caixa">
+                            <p><input class="p-3" type="number" placeholder="seu celular" oninput="this.className = ''" name="amount"></p>
+                          </div>
+                        </div>
+                        <div class="tab">
+                          <div class="row">
+                            <div class="col-sm-4"><p><button type="button" id="btn01" class="btn btn-investimento" onclick="selecionarInvestimento(1000,1);">R$:1000</button></p></div>
+                            <div class="col-sm-4"><p><button type="button" id="btn02" class="btn btn-investimento" onclick="selecionarInvestimento(2000,2);">R$:5000</button></p></div>
+        
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4"><p><button type="button" id="btn04" class="btn btn-investimento" onclick="selecionarInvestimento(4000,4);">R$:20000</button></p></div>
+                            <div class="col-sm-4"><p><button type="button" id="btn03" class="btn btn-investimento" onclick="selecionarInvestimento(3000,3);">R$:10000</button></p></div>
+                          </div>
+                          <div class="row">
+                            <p><button type="button" id="btn05" class="btn btn-investimento" onclick="selecionarInvestimento(4000,5);">R$:50000</button></p>
+                          </div>
+                        </div>
+                        <div class="tab">
+                          <textarea rows="3" cols="33" placeholder="Descreva mais sobre seu projeto!"></textarea>
+        
+        
+        
+                        </div>
+                        <span id="mensagem" style="color: red"></span>
+                        <div class="thanks-message text-right" id="text-message">
+                          <span class="menssagem"><p class="CorText1">Pronto! Agora só aguardar que entraremos <br>
+                            em contatocom você o mais rápido possível! <br>
+                            ATÉ LOGO!</p> </span>
+                        </div>
+                        <div style="overflow:auto;" id="nextprevious">
+                          <div style="float:left;"> 
+                          <button type="button" style="margin: 10px;" class="btn btn-primary " id="prevBtn" onclick="nextPrev(-1)"> ANTERIOR </button>
+                          <button type="button" style="margin: 10px;" class="btn btn-primary" id="nextBtn" onclick="nextPrev(1)">PRÓXIMO </button>
+                          </div>
+                        </div>
+                        <script src="main.js"></script>
+                      </form>
+                    </div>
+                  </div>
+        </div>
+         </div>
+          </section>  
+        <!-- fim da tela 07 -->
     </main>
     <!-- fim do main -->
 
     <!-- início do footer -->
-    <footer></footer>
+    <footer>
+        <div class="row imagem-tela01 row-footer posicionamento">
+          <div class="col-md-3 col-sm-6 row-footer">
+            <div class="footer justify-content-center align-items-center text-align-center mb-2"><h2 class="h2-footer"> <strong> LEVE A <br>
+              TECNOLOGIA <br>
+              PARA SEU <br>
+              NEGÓCIO!</strong></h2></div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-4">
+            <h6 class="CorText"><strong> MENU  </strong></h6>
+              <ul class="a-footer row-footer">
+                <li class="CorText"><a href="#">HOME</a> </li>
+                <li class="CorText"><a href="#" > QUEM SOMOS</a></li>
+                <li class="CorText"><a href="#">SERVIÇOS</a></li>
+                <li class="CorText"><a href="#">METODOLOGIA</a> </li>
+                <li class="CorText"><a href="#">CASES</a></li>
+                <li class="CorText"><a href="#">NOSSO TIME</a></li>
+                <li class="CorText"><a href="#">CONTATO</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="row"><h6 class="CorText"><strong>CONTATOS</strong></h6>
+            <h6 class="CorText">benrainir@gmail.com <br>
+              85 9 8726-1031 | 85 9 8993-7587</h6></div>
+              <p></p>
+            <div class="row"><h6 class="CorText"><strong>ONDE ESTAMOS</strong></h6>
+            <h6 class="CorText">Av. Washington Soares, 1400 <br> - Conjunto Luciano Cavalcante, <br> Fortaleza - CE, 60811-341</h6></div>
+          </div>
+          <div class="col-xs-2 col-md-3 col-sm-6" id="icons-footer">
+            <div class="row "><h6 class="CorText"><strong>SIGA NAS REDES SOCIAIS</strong><br></h6>
+              <div class="col-xs-4 col-sm-4"><a class="none" href="#"><i class="fa-brands fa-instagram icone"></i></a></div>
+              <div class="col-xs-4 col-sm-4"> <a class="none" href="#"><i class="fa-brands fa-facebook icone"></i></a></div>
+              <div class="col-xs-12 col-sm-12 footerLogo ">
+              <img src="../imagens/BrainUp_logo3.png"  class="img_logo2 CorText" >
+            </div>
+  
+            </div>
+            
+          </div>
+        </div>
+    </footer>
     <!-- fim do footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
