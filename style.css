@@ -56,7 +56,7 @@
     padding: 5%;
 }
 .ImgTel1{
-    background: url("../imagens/FOTO\ 1-100-corte.jpg");
+    background: url("./imagens/FOTO\ 1-100-corte.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -85,7 +85,7 @@
   }
 .GradientTel02{
     background: linear-gradient(135deg, #AB13B7, #160E73);
-    background: url("../imagens/foto2-1050.png");
+    background: url("./imagens/foto2-1050.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 5%;
@@ -178,7 +178,7 @@
 /* INÍCIO TELA 03 */
 .POSICIONAMENTO {
   background: #AB13B7;
-  background: url("../imagens/foto3-1050.png");
+  background: url("./imagens/foto3-1050.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10%;
@@ -306,7 +306,7 @@
 
 /* INÍCIO DA TELA 07 */
 .img-tela07{
-  background: url("../imagens/foto4-1050.png");
+  background: url("./imagens/foto4-1050.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -623,7 +623,7 @@
 }
 .img_logo2{
   width: 100px;
-  background: url("../imagens/BrainUp_logo3.png");
+  background: url("./imagens/BrainUp_logo3.png");
   background-repeat: no-repeat;
   background-size: cover;
 
