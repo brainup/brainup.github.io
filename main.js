@@ -17,14 +17,18 @@ function showTab(n) {
         document.getElementById("prevBtn").style.display = "inline";
     }
     if (n == (x.length - 1)) {
-        document.getElementById("nextBtn").innerHTML = "ENVIAR!";
+         document.getElementById("nextBtn").innerHTML = "ENVIAR!";
+    //    const EventoBotao = window.location.href = "https://wa.me/558587261031?text=Quero%20receber%20uma%20proposta!";
+    //    document.getElementById("nextBtn").innerHTML = "EventoBotao";
     } else {
         document.getElementById("nextBtn").innerHTML = "PRÓXIMO";
     }
-    fixStepIndicator(n)
-}
+    fixStepIndicator(n);
+}    
 
 function nextPrev(n) {
+
+
     document.getElementById("mensagem").innerText = "";
 
     var x = document.getElementsByClassName("tab");
@@ -40,12 +44,27 @@ function nextPrev(n) {
     currentTab = currentTab + n;
 
     if (currentTab >= x.length) {
+
         // document.getElementById("regForm").submit();
         // return false;
         //alert("sdf");w
         document.getElementById("nextprevious").style.display = "none";
         document.getElementById("all-steps").style.display = "none";
-        document.getElementById("text-message").style.display = "block";
+        //  document.getElementById("text-message").style.display = "block";
+        const NomeDoUsuario =  document.querySelector('#nome').value;
+        const EmailDoUsuario =  document.querySelector('#email').value;
+        const NumeroDoUsuario = document.querySelector('#numero').value;
+        const SobreProjeto = document.querySelector('#projeto').value;
+
+        document.getElementById("text-message").style.display =
+         window.location.href = "https://wa.me/558587261031?text=" 
+         + "Nome : "+NomeDoUsuario+"%0a"
+         + "Email : "+EmailDoUsuario+"%0a"
+         + "Número : "+NumeroDoUsuario+"%0a"
+         + "Investimento : "+investimento+"%0a"
+        
+         + "Projeto : "+SobreProjeto+"%0a"
+        
     }
 
 
@@ -54,12 +73,12 @@ function nextPrev(n) {
 }
 function selecionarInvestimento(valor, selectedIndex) {
     investimento = valor;
-    lista = document.getElementsByClassName("btn-investimento");
+   const lista = document.getElementsByClassName("btn-investimento");
     for (i = 1; i < lista.length+1; i++) {
         document.getElementById('btn0'+i).style.background = '#3d1365';
     }
     document.getElementById('btn0'+selectedIndex).style.background = '#39a361';
-    console.log(invesitmento);
+
 }
 
 function validateForm() {
