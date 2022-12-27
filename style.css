@@ -47,7 +47,7 @@
     margin: 1 1em;
 }
 .ImgLogoTelNav{
-    height: 100px;
+    height: 165px;
 
 }
 .PosicaoCol1Tel1{
@@ -93,6 +93,7 @@
 }
 #section02 .h3{
   color: #f5f5f5;
+  font-size: 40px;
 }
 #section02 .card{
     width: 300px;
@@ -150,6 +151,7 @@
       box-align: justify ;
       text-align: left;
       height: 100px ;
+      font-size: 15px;
   
     }
   
@@ -162,6 +164,7 @@
     #section02 .justify_titulocard{ /*criei essa classe para justificar o texto do título dos cards da section02*/
       box-align: justify ;
       text-align: left;
+      font-size: 20px;
     }
 #section02 .CardTel02{
     margin: 5%;
@@ -174,8 +177,8 @@
   color: #f5f5f5;
 }
 .ImagensIcons{
-    width: 55px;
-    height: 55px;
+    width: 100px;
+    height: 100px;
     border-radius: 50px;
     color: #f5f5f5;
     margin: auto;
@@ -198,9 +201,11 @@
 }
 .titulo-selecao{
   color: #f5f5f5;
+  font-size: 40px;
 }
 .cortel02{
   color: #f5f5f5;
+  font-size: 20px;
 }
 
 .img_logo-03{
@@ -224,7 +229,11 @@
 }
 .destaque{ /*destaque do texto da section 04*/
   color: rgb(22, 14, 115);
-
+  font-size: 40px;
+}
+.destaqueCor{
+  color: rgb(22, 14, 115);
+  font-size: 20px;
 }
 .color{ /*classe criada para definir a cor da fonte da section04*/
   background-color: #faf5f5;
@@ -236,10 +245,11 @@
 }
 #metodologia .card{
   color: #f5f5f5;
+
 }
 
 #metodologia .height_card1{ /*criei essa classe para definir a altura dos cards*/
-  height: 200px;
+  height: 300px;
   width: 270px;
   margin: 3px;
   padding: 3px;
@@ -256,6 +266,12 @@
   transition: 0.5s;
   color: #160E73 !important;  
   font-weight: 800; 
+}
+#metodologia .justify_titulocard{
+  font-size: 20px;
+}
+#metodologia .justify{
+  font-size:15px;
 }
 .posicionamento{
   padding: 5%;
@@ -306,7 +322,7 @@
 }
 
 .destaque6{
-  font-size: 35px;
+  font-size: 40px;
   color: #160E73;
 }
 .CardTel06{
@@ -325,6 +341,11 @@
 }
 .CorText{
   color: #f5f5f5;
+  font-size: 40px;
+}
+.CorTextP{
+  color: #f5f5f5;
+  font-size: 20px;
 }
 #regForm {
   background: transparent;
@@ -874,7 +895,7 @@ right: 50%;
         font-size: 14px;
       }
       #metodologia .height_card1{ /*criei essa classe para definir a altura dos cards*/
-        height: 200px;
+        height: 250px;
         width: 250px;
         margin: 3px;
         padding: 3px;
