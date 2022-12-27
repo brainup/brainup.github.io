@@ -678,7 +678,9 @@
     padding: 5%;
     margin: unset !important;
   }
-
+  #section02 .h3{
+    font-size: 30px;
+  }
 #section02 .CardTel02{
   margin: 0%;
   text-align: center;
@@ -696,6 +698,11 @@
 }
 .titulo-selecao{
   text-align: center;
+  font-size: 30px;
+}
+.cortel02{
+  color: #f5f5f5;
+  font-size: 15px;
 }
 .ImagensIcons{
   width: 50px;
@@ -705,11 +712,31 @@
   margin: auto;
 
 }
+.destaque6{
+  font-size: 30px;
+  color: #160E73;
+}
+.telaparceriasmobile{
+  font-size: 15px;
+}
+.destaque{ /*destaque do texto da section 04*/
+  color: rgb(22, 14, 115);
+  font-size: 30px;
+}
+.destaqueCor{
+  color: rgb(22, 14, 115);
+  font-size: 15px;
+}
+
 .ajustes-fluxograma{
   display: none;
 }
 .CorText{
   padding: unset !important;
+  font-size: 30px;
+}
+.CorTextP{
+  font-size: 15px;
 }
 .CardTel06{
   margin-top: 80px;
@@ -729,8 +756,20 @@ width: 75px;
 right: 50%;
 
 }
+#metodologia .height_card1{ /*criei essa classe para definir a altura dos cards*/
+  height: 200px;
+  width: 270px;
+  margin: 3px;
+  padding: 3px;
+  background: linear-gradient(135deg,#AB13B7,#160E73);
+  border-radius: 10px;
+}
 }
 @media (min-width: 568px) and (max-width:767px) {
+  .Centralizar{
+    width: 30% !important;
+    margin-top: 10px !important;
+  }
   br{
     display: none;
   }
@@ -742,6 +781,10 @@ right: 50%;
  }
  .h3{
   text-align: center;
+  font-size: 30px;
+ }
+ p{
+  font-size: 15px;
  }
   .Ctela1{
     display: none;
@@ -794,6 +837,10 @@ right: 50%;
   }
   }
   @media (min-width: 768px) and (max-width:991px) {
+    .Centralizar{
+      width: 30% !important;
+      margin-top: 10px !important;
+    }
     br{
       display: none;
     }
@@ -862,6 +909,10 @@ right: 50%;
     }
   }
   @media (min-width: 992px) {
+    .Centralizar{
+      width: 30% !important;
+      margin-top: 10px !important;
+    }
     br{
       display: none;
     }
