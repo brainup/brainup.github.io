@@ -172,9 +172,18 @@
 .icone{
   width: 25px;
   color: #f5f5f5;
+}
+.ImagensIcons{
+    width: 25px;
+  color: #f5f5f5;
+  text-align: center;
+  margin: auto;
 
 }
-
+.Picons{
+  color: #f5f5f5;
+  text-align: center;
+}
 /* INÍCIO TELA 03 */
 .POSICIONAMENTO {
   background: #AB13B7;
