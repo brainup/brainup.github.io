@@ -174,11 +174,15 @@
   color: #f5f5f5;
 }
 .ImagensIcons{
-    width: 25px;
-  color: #f5f5f5;
-  text-align: center;
-  margin: auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    color: #f5f5f5;
+    margin: auto;
 
+}
+.Centralizar{
+  text-align: center;
 }
 .Picons{
   color: #f5f5f5;
