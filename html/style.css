@@ -1,0 +1,971 @@
+/*Corpo do site Body*/
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #f5f5f5;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;    
+  font-family: Montserrat, sans-serif;
+   background: linear-gradient(135deg, #AB13B7, #160E73); 
+
+ }
+
+#gradient{
+  background: linear-gradient(135deg, #AB13B7, #160E73);
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+/*header*/
+/*navbar*/
+#navbar a { /*fonte da cor dos items da navbar*/
+    color: #faf5f5;
+}
+#navbar{
+  padding: 5%;
+}
+#navbar .navbar-toggler{
+  color: #f5f5f5;
+
+}
+
+#navbar a:hover {
+    color: #faf5f5;
+    border-bottom: 0.5px solid #eee9e9;
+    font-weight: bolder;
+}
+
+.navbar-brand {  /*classe do link da logo */
+    display: flex;
+}
+
+.img_logo{ /*classe da imagem da logo*/
+    width: 100px;
+    text-decoration: none;
+}
+
+
+#navbar-items .navbar-nav {    /*classe para centralizar os elementos ao centro */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 0.1em;
+}
+
+#navbar-items .nav-item {  /*margem de um elemento para o outro */
+    margin: 1 1em;
+}
+
+/*fim da navbar*/
+/*fim do header*/
+
+/*main*/
+/*section01*/
+.imagem-tela01{
+  padding: 5%;
+}
+
+.tamanho-coluna-tela01{
+  height: 600px;
+}
+.h3{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1{
+
+    font-weight: 300 ;
+
+  }
+
+  strong{
+    font-weight: 700;
+  }
+  .h2{
+
+    font-weight: 900 ;
+  }
+
+  .p{
+
+    font-weight: 400 ;
+
+  }
+
+  .buttom_tela{  /*é a classe do botão da section01*/
+    border-radius: 10px;
+    color:rgb(22, 14, 115);
+    background-color: rgb(83, 236, 141);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .buttom_tela:hover{ /*classe botão da section01 e chama a classe buttom_tela*/
+    cursor: pointer;
+    color: #f5f5f5;
+    background-color: rgb(22, 14, 115);
+    transition: 0.5s;
+  }
+
+  .col{
+      margin-top: 50px;
+      position: relative;
+      background: transparent;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+      top: -20px;
+  }
+  .col-sm-6{
+    text-align: left;
+    margin-top: 20px;
+  }
+    .img{ /*imagem da section 01*/
+        width: 100%;
+        height: 100%;
+        position: relative;
+  }
+
+  .tela02{
+    width: 100%;
+    height: 100%;
+  }
+/*fim da section01*/
+/* section02*/
+#section02 .p2{
+  text-align: center;
+}
+#section02 .card{
+  width: 300px;
+  height: 300px;
+     background: transparent; 
+     background: linear-gradient(135deg,#AB13B7,#160E73);
+     border-radius: 10px;
+     color: #f5f5f5;
+  }
+  #section02 .card:hover{
+    cursor: pointer;
+    background: transparent;
+    border-color: rgb(83, 236, 141) ;
+    transition: 0.5s ; 
+    font-weight: 600;
+  }
+
+  #section02 .buttom_card{  /*criei essa classe para definir o estilo do link*/
+    color: rgb(83, 236, 141);
+    text-decoration: none;
+    text-align: center;
+    justify-items: center;
+  }
+
+  #section02  .buttom_card:hover{
+    transition: 0.5s;
+    color:  rgb(83, 236, 141);
+  }
+  #section02  .buttom_tela{ /*classe botão da section02 e chama a classe buttom_tela*/
+      background-color: rgb(83, 236, 141);
+      border: 1px solid #160E73;
+      border-radius: 10px;
+      cursor: pointer;
+      color:rgb(22, 14, 115);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+
+
+  }
+
+  #section02  .buttom_tela:hover{ /*classe botão da section02 e chama a classe buttom_tela*/
+    background-color: rgb(22, 14, 115);
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+  .justify{ /* crei essa classe para justificar os textos da section 02*/
+    box-align: justify ;
+    text-align: left;
+    height: 100px ;
+
+  }
+
+  #section02 .height_card{ /*criei essa classe para definir a altura dos cards*/
+    height: 250px;
+ 
+  }
+  #section02 .justify_titulocard{ /*criei essa classe para justificar o texto do título dos cards da section02*/
+    box-align: justify ;
+    text-align: left;
+   
+
+  }
+/*fim da section02*/
+
+/*início da section03*/
+
+.cortela03{ /*essa classe define a imagem da tela 03*/
+  background-image: url(../html/img/foto3-10500.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img_logo-03{
+  width: 60px;
+  height: 100%; 
+  width: 100%; 
+  text-align: center;
+  background-size: cover;
+}
+.tamanho-coluna{  /*essa classe define o tamnaho da coluna que contém a row principal da tela 03*/
+  height: 400px;
+}
+
+/* classes da section 03*/
+
+.cor{ /*classe referente ao destaque das frases/palavras da seleção*/
+  background-color: rgb(83, 236, 141);
+  color: rgb(22, 14, 115);
+}
+.titulo-selecao{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.linha-tela-03{
+  text-align: left;
+  justify-content: left;
+
+}
+
+/* fim da div da section 03*/
+
+/*fim da section03*/
+
+/*início da section04*/
+.position01{ /*posição que a coluna terá em relação a linha principal*/
+  text-align: center;
+
+}
+.destaque{ /*destaque do texto da section 04*/
+  color: rgb(22, 14, 115);
+
+}
+.color{ /*classe criada para definir a cor da fonte da section04*/
+  background-color: #faf5f5;
+
+  font-weight: 600;
+}
+/* .posicao{
+  margin: 40px;
+  margin-left: 100px;
+  margin-top: 50px;
+} */
+
+
+.ajustes-fluxograma{ /*largura da imagem da tela 04*/
+  width: 60%;
+
+}
+
+#metodologia .height_card1{ /*criei essa classe para definir a altura dos cards*/
+  height: 250px;
+  width: 300px;
+  margin: 3px;
+  padding: 3px;
+  color: #f5f5f5;
+  background: linear-gradient(135deg,#AB13B7,#160E73);
+  border-radius: 10px;
+}
+
+
+#metodologia .card:hover{
+  cursor: pointer;
+  background: transparent;
+  border-color: #AB13B7 ;
+  transition: 0.5s;
+  color: #160E73;
+  font-weight: 800;
+}
+
+/*fim da section04*/
+
+/*início da section05*/
+#tela05{
+  background: linear-gradient(#ab13b7,#160e73);
+}
+#tela05 .caixa{
+  align-items: center;
+  font-weight: 100 italic;
+}
+
+#tela05 .color{
+  color: #f5f5f5;
+}
+
+.texto{
+  align-items: center;
+  border:solid 1px ;
+  border-color: rgb(83, 236, 141);
+  border-radius: 15px;
+  padding: 20px;
+  margin:  auto;
+}
+/*fim da section05*/
+
+/*início da section06*/
+
+
+#nomes .card-img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid;
+}
+#nomes .name{
+
+  font-size: 18px;
+  font-weight: 14px ;
+  color: #f5f5f5;
+  justify-content: center;
+  text-align: center;
+}
+
+#nomes .descricao{
+
+  font-size: 9px;
+  color: #f5f5f5;
+  text-align: center;
+}
+#nomes .card{
+
+  border: solid, 5px;
+  background:linear-gradient(135deg,#AB13B7,#160E73);
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 300px;
+}
+
+
+.img-tela06{
+  background-image: url(../html/img/ELEMENTO_REDE.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3px;
+  padding: 3px;
+}
+/*fim da section06*/
+
+/*início da section07*/
+.img-tela07{
+  background-image: url(../html/img/foto4-1050.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 80px; */
+
+}
+
+#regForm {
+  background: transparent;
+  margin: 0px auto;
+  border-radius: 10px;
+}
+
+#formulario h1 {
+  text-align: left;
+}
+
+#formulario input {
+  padding: 15px;
+  width: 100%;
+  font-size: 13px;
+  height: 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3d1365;
+  color: #f5f5f5;
+}
+
+#formulario input.invalid {
+  border-color: #ff0505;
+}
+
+#formulario .tab {
+  display: none;
+}
+
+#formulario button {
+  color: #160E73;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  border-radius: 10px;
+
+  background-color: rgb(83, 236, 141);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align:left;
+
+  cursor: pointer;
+}
+
+#formulario button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  /* background-color: #bbbbbb; */
+  border-radius: 10px;
+  color: #160E73;
+  cursor: pointer;
+  text-align:left;
+}
+
+#formulario .step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #3d1365;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+#formulario .step.active {
+  opacity: 1;
+}
+
+#formulario .step.finish {
+  background-color: rgb(83, 236, 141);
+}
+
+#formulario .all-steps {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#formulario .thanks-message {
+  display: none;
+}
+
+
+
+#formulario {
+  display: block;
+  position: relative;
+  /* padding-left: 35px;
+  margin-bottom: 12px; */
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+
+#formulario input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+#formulario .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+#formulario:hover input~.checkmark {
+  background-color: #3d1365;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+#formulario input:checked~.checkmark {
+  background-color: #2196F3;
+}
+#formulario #btn01{
+  background-color: #3d1365;
+  color: #f5f5f5;
+}
+#formulario #btn02{
+  background-color: #3d1365;
+  color: #f5f5f5;
+}
+#formulario #btn03{
+  background-color: #3d1365;
+  color: #f5f5f5;
+}
+#formulario #btn04{
+  background-color: #3d1365;
+  color: #f5f5f5;
+}
+#formulario #btn05{
+  background-color: #3d1365;
+  color: #f5f5f5;
+}
+
+
+#formulario .btn {
+  text-align:left;
+  background-color: rgb(83, 236, 141);
+}
+#nextBtn{
+  border-radius: 10px;
+  font-family: sans-serif;
+  background-color: rgb(83, 236, 141);
+  color: #160E73;
+  font-weight: 900;
+  text-align:left;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+#formulario .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+#formulario .caixa{
+  margin: 1px;
+  padding: 1px;
+  color: #f5f5f5;
+}
+
+/* Show the indicator (dot/circle) when checked */
+
+#formulario input:checked~.checkmark:after {
+  display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+
+#formulario .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+#formulario .col-sm-6{
+  text-align: left;
+}
+#formulario .col{
+  margin-top: 0;
+}
+#formulario .projeto{
+  width: 100%;
+  height: 300px;
+  align-items: start;
+  justify-content: start;
+}
+#formulario span{
+  margin: 0;
+  color: rgb(83, 236, 141);
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#formulario input::placeholder {
+  color: #f5f5f5;
+}
+#formulario textarea{
+    background-color: #3d1365;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: medium;
+    color: #f5f5f5;
+}
+#formulario textarea::placeholder {
+  color: #f5f5f5;
+}
+/*fim do main*/
+.row-footer{
+  margin-top: 0;
+  background-color: rgb(19, 18, 53);
+  justify-content: space-around;
+  text-align: left;
+
+}
+.footer{
+  width: 250px;
+  height: 200px;
+  border: 2px solid rgb(83, 236, 141);
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 5%;
+}
+.h2-footer{
+  color:rgb(83, 236, 141);
+  
+}
+.a-footer{
+  margin-top:2%;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+
+}
+.a-footer a { /*fonte da cor dos items da navbar*/
+  color: #faf5f5;
+  text-decoration: none;
+}
+
+.a-footer a:hover {
+  color: #faf5f5;
+  border-bottom: 0.5px solid #eee9e9;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.col-sm-3{
+  margin-top: 2%;
+  margin-bottom: 3%;
+  margin-left: 0%;
+}
+
+#icons-footer .icone{
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  color: #f5f5f5;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 40px;
+  text-decoration: none;
+}
+#icons-footer .none{
+  text-decoration: none;
+}
+
+#icons-footer .center-l2{
+  height: 70px;
+  width: 70px;
+}
+/* @media (max-width: 928px) {
+  br{
+    display: none;
+  }
+#section02 .card{
+      font-size: 10px;
+  }
+  #metodologia  .card{
+    font-size: 10px;
+  }
+  #nomes .card{
+    font-size: 10px;
+  }
+} */
+@media (max-width: 576px) {
+  br{
+    display: none;
+  }
+  .imagem-tela01{
+    padding: none;
+  }
+  /*tela01*/
+  .div-botao1{
+    width: none;
+    max-width: none;
+  }
+#gradient .img{
+  display: none
+}
+/*tela 02*/
+#section02 .height_card{ /*criei essa classe para definir a altura dos cards*/
+  height: 200px;
+  width: 250px;
+}
+#section02 .card{
+
+    font-size: 13px;
+   background: transparent; 
+   background: linear-gradient(135deg,#AB13B7,#160E73);
+   border-radius: 10px;
+   color: #f5f5f5;
+}
+#section02 .buttom_card{  /*criei essa classe para definir o estilo do link*/
+  color: rgb(83, 236, 141);
+  text-decoration: none;
+  text-align: center;
+  justify-items: center;
+  font-size: 13px;
+}
+#section02 .card:hover{
+  cursor: pointer;
+  background: transparent;
+  border-color: rgb(83, 236, 141) ;
+  transition: 0.5s ; 
+  font-weight: 600;
+}
+#section02 .justify_titulocard{ /*criei essa classe para justificar o texto do título dos cards da section02*/
+  box-align: justify ;
+  text-align: left;
+  font-size: 14px;
+
+}
+/*tela 03*/
+.titulo-selecao{
+  font-size: 16px;
+}
+
+.img_logo-03{
+  display: none;
+}
+.posicao{
+  margin: none;
+  margin: 0;
+  margin-top: 0;
+  height: 300px;
+}
+.tamanho-coluna{
+  display: none;  /*essa classe define o tamnaho da coluna que contém a row principal da tela 03*/
+  height: none;
+}
+.linha-tela-03{
+  text-align: center;
+  justify-content: center;
+
+}
+.col{
+
+  position: none;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.small-justify{
+    font-size: 12px;
+}
+/*tela 04*/
+.ajustes-fluxograma{ /*largura da imagem da tela 04*/
+  display: none;
+}
+#metodologia .height_card1{ /*criei essa classe para definir a altura dos cards*/
+  height: 200px;
+  width: 250px;
+}
+
+#metodologia  .card{  /*id criado para tornar-se pai dos cards*/
+
+  font-size: 13px;
+  color: #f5f5f5;
+  background: linear-gradient(135deg,#AB13B7,#160E73);
+  border-radius: 10px;
+  padding: 4px;
+}
+.position01{ /*posição que a coluna terá em relação a linha principal*/
+  margin-bottom: 5%;
+  margin-top: 5%;;
+
+}
+.padding{
+  display: none;
+}
+/* tela05 */
+#tela05 .parcerias{
+    display: none;
+}
+#tela05 .texto .caixa{
+	font-size:15px;
+}
+#tela05 .texto h4{
+	font-size:15px;
+}
+#tela05 .caixa{
+	font-size:15px;
+}
+#nomes .card-image{
+
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+  background: linear-gradient(135deg,#AB13B7,#160E73);
+  padding: 3px;
+}
+#nomes .card-image .card-img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 1px solid;
+}
+#nomes .card-title{
+
+  font-size: 18px;
+  font-weight: 14px ;
+  color: #f5f5f5;
+  justify-content: center;
+  text-align: center;
+}
+
+#nomes .card-text{
+
+  /* font-size: 9px; */
+  color: #f5f5f5;
+  text-align: center;
+}
+#nomes .card{
+
+  border: solid, 5px;
+  background:linear-gradient(135deg,#AB13B7,#160E73);
+  align-items: center;
+  justify-content: center;
+}
+#nomes .height_card2{
+
+  height: 200px;
+  width: 250px;
+  background-color: #f5f5f5; 
+
+}
+#nomes .height_card2 .card-img{
+
+  object-fit: contain;
+  border-radius: 50%;
+  border: 4px solid ;
+  /* height: 100px; */
+
+}
+/*footer*/
+.footer{
+  width: 250px;
+  height: 200px;
+  border: 2px solid rgb(83, 236, 141);
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto;
+}
+.row-footer{
+  margin-top: 0;
+  background-color: rgb(19, 18, 53);
+  text-align: center;
+  width: 100%;
+  
+}
+.h2-footer{
+  color:rgb(83, 236, 141);
+  text-align: center;
+  margin-top: 30px;
+}
+.a-footer{
+  margin-top:2%;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+.col-sm-3{
+  margin-top: 2%;
+  margin-bottom: 3%;
+  margin-left: 0%;
+  text-align: center;
+}
+}
+
+/*-------------------Responividade para tablets-----------------------*/
+ @media (max-width: 768px) {
+  br{
+    display: none;
+  }
+  .tamanho-coluna{  /*essa classe define o tamnaho da coluna que contém a row principal da tela 03*/
+   display: none;
+  }
+ #gradient .div-botao1{
+    width: 500px;
+    max-width: 500px;
+  } 
+  .Ctela1{
+    display: none;
+  }
+  .C4{
+    width: 100%;
+  }
+  #section02 .height_card{ /*criei essa classe para definir a altura dos cards*/
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+  }
+  .ajustes-fluxograma{ /*largura da imagem da tela 04*/
+    display: none;
+  
+  }
+  #section02 .card{
+        font-size: 14px;
+    }
+    #metodologia  .card{
+      font-size: 14px;
+    }
+    #nomes .card{
+      font-size: 14px;
+    }
+    #metodologia .height_card1{ /*criei essa classe para definir a altura dos cards*/
+      height: 200px;
+      width: 250px;
+      margin: 3px;
+      padding: 3px;
+      color: #f5f5f5;
+      background: linear-gradient(135deg,#AB13B7,#160E73);
+      border-radius: 10px;
+    }
+    .position01{ /*posição que a coluna terá em relação a linha principal*/
+      text-align: center;
+      width: 100%;
+    
+    }
+    .coltab{
+      width: 80%;
+    }
+  }
+  
